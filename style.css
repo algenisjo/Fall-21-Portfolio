@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    color: #011627;
+    background-color: #f7f7f7;
+    font-family: 'KoHo', sans-serif;
+  }
+
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+  }
+  
+  h2{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  p{
+    font-size: 18px;
+  }
+
+  a{
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:visited{
+    color: #011627;
+  }
+
+  /* Source code links in cards-------------------------------------------------------- */
+  .a2{
+    padding:4px 19px;
+    border: solid 1px #011627;
+  }
+
+  .a2:hover{
+    background-color: #008dd5;
+  }
+
+
+  /* Header/Blog Title */
+  .header {
+    padding: 2px;
+    text-align: center;
+    background: transparent;
+    margin-bottom: 10px;
+    border: solid 1px #011627;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+    border: solid 1px #011627;
+    padding-left: 10px;
+    margin: 10px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding:4px 19px;
+    text-decoration: none;
+    border: solid 1px #011627;
+    margin: 2px;
+  }
+  
+  /* Change color on hover */
+
+h1:hover{
+    background-color: #008dd5;
+    color: #f7f7f7;
+    border:solid 1px #f7f7f7;
+    transition: .2s;
+}
+
+a:hover{
+  background-color: #f71735;
+  color: #f7f7f7;
+  border:solid 1px #f7f7f7;
+  transition: .2s;
+}
+ /*Animated Gifs ---------------------------------------------------------- */
+ .gif{
+   width: 100%;
+   height: 100%;
+ }
+
+ img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ }
+
+  
+  /* Create two unequal columns that floats next to each other--------------------------------------------- */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 35%;
+    margin-left: 25px;
+  }
+  
+  /* Right column ----------------------------------------------------------------------------------------*/
+  .rightcolumn {
+    float: left;
+    width: 25%;
+  }
+  
+    /* Fake image --------------------------------------------- --------------------------------------------- */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 200px;
+    }
+  .award{
+    padding: 0%;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    padding: 10px;
+    margin-top: 0px;
+  }
+
+  .card h2{
+    border: solid 1px #011627;
+  }
+
+  .card h2:hover{
+      background-color: #ff9f1c;
+      color: #f7f7f7;
+      border:solid 1px #f7f7f7;
+      transition: .2s;
+    }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
