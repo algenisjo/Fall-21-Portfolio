@@ -30,7 +30,7 @@
 
   /* Source code links in cards-------------------------------------------------------- */
   .a2{
-    padding:4px 19px;
+    padding:2px 10px;
     border: solid 1px #011627;
   }
 
@@ -167,13 +167,13 @@ a:hover{
     }
   } 
 
+  /* this makes the links within the description wrap accorinf to the flex direction*/
   .links{
     justify-content: left;
-    border: solid 2px red;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
   .links p{
-    margin-left: 5px;
+    margin-left: 3px;
   }
