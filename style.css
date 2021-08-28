@@ -5,11 +5,9 @@
     font-family: 'KoHo', sans-serif;
   }
 
-  
   body {
     font-family: Arial;
     padding: 10px;
-    border: solid 2px red;
   }
   
   h2{
@@ -129,7 +127,6 @@ a:hover{
   /* columns*/
   /* this will work when the float isnt on*/
   .maincolumn{
-    border: solid 2px red;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -139,11 +136,12 @@ a:hover{
     }
   
     
-    /* Responsive layout - makes a one column layout instead of a two-column layout */
+    /* Responsive layout - makes a three-column layout instead of a one-column layout */
     @media (max-width: 800px) {
       .maincolumn {
         flex-direction: column;
       }
+    }
       
       /*-------------------------------------------/
   /* Footer */
@@ -167,5 +165,15 @@ a:hover{
       float: none;
       width: 100%;
     }
+  } 
+
+  .links{
+    justify-content: left;
+    border: solid 2px red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
-  
+  .links p{
+    margin-left: 5px;
+  }
