@@ -60,10 +60,19 @@
     overflow: hidden;
   }
   
-  /* Style the topnav links */
+  /* Style the topnav links 
   .topnav a {
     float: left;
     display: block;
+    text-align: center;
+    padding:4px 19px;
+    text-decoration: none;
+    border: solid 1px #011627;
+    margin: 2px;
+  }
+  */
+
+  .topnav2 div {
     text-align: center;
     padding:4px 19px;
     text-decoration: none;
@@ -178,4 +187,12 @@ a:hover{
     margin-left: 3px;
   }
 
+  /*makes the topnav items flexbox*/
+
+  .topnav2{
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   
