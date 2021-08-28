@@ -55,26 +55,9 @@
     margin: 10px;
   }
   
-  /* Style the top navigation bar */
-  .topnav {
-    overflow: hidden;
-  }
-  
-  /* Style the topnav links 
-  .topnav a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding:4px 19px;
-    text-decoration: none;
-    border: solid 1px #011627;
-    margin: 2px;
-  }
-  */
-
   .topnav2 div {
     text-align: center;
-    padding:4px 19px;
+    padding:4px 10px;
     text-decoration: none;
     border: solid 1px #011627;
     margin: 2px;
