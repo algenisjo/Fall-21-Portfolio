@@ -56,7 +56,7 @@
   }
 
   a:hover{
-    background-color: #f71735;
+    /* background-color: #f71735; */
     color: #f7f7f7;
     border:solid 1px #f7f7f7;
     transition: .2s;
@@ -66,7 +66,7 @@
     text-align: center;
     padding:4px 10px;
     text-decoration: none;
-    border: solid 1px #011627;
+    /* border: solid 1px #011627; */
     margin: 2px;
   }
   
